@@ -1,5 +1,5 @@
 /*
-Copyright 2021 htpkbs
+Copyright 2021 htpkbs <info@htpkbs.com>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -45,7 +45,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define ENCODERS_PAD_A { F4 }
 #define ENCODERS_PAD_B { F1 }
 #define TAP_CODE_DELAY 10
-#define ENCODER_DIRECTION_FLIP
 #define UNUSED_PINS
 
 /* COL2ROW, ROW2COL */
@@ -68,7 +67,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define RGB_DI_PIN F5
 #ifdef RGB_DI_PIN
-#    define RGBLED_NUM 6
+#    define RGBLED_NUM 8
 #    define RGBLIGHT_HUE_STEP 8
 #    define RGBLIGHT_SAT_STEP 8
 #    define RGBLIGHT_VAL_STEP 8
